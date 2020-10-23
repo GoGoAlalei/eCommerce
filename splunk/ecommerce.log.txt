@@ -1,0 +1,64 @@
+2020-10-22 13:07:52.396  INFO 6524 --- [           main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-4UU569K with PID 6524 (E:\Udacity\JNDN-Master\projects\P04-eCommerce Application\starter_code\target\classes started by Lynn in E:\Udacity\JNDN-Master\projects\P04-eCommerce Application\starter_code)
+2020-10-22 13:07:52.398  INFO 6524 --- [           main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2020-10-22 13:07:53.174  INFO 6524 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-22 13:07:53.244  INFO 6524 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 JPA repository interfaces.
+2020-10-22 13:07:54.176  INFO 6524 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-22 13:07:54.189  INFO 6524 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-22 13:07:54.190  INFO 6524 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-22 13:07:54.319  INFO 6524 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-22 13:07:54.319  INFO 6524 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1838 ms
+2020-10-22 13:07:54.562  INFO 6524 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-22 13:07:54.614  INFO 6524 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-22 13:07:54.745  INFO 6524 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-22 13:07:54.846  INFO 6524 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-22 13:07:55.045  INFO 6524 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-22 13:07:55.069  INFO 6524 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-22 13:07:55.879  INFO 6524 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-22 13:07:55.886  INFO 6524 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-22 13:07:56.447  WARN 6524 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-22 13:07:56.614  INFO 6524 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e7fa4b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ca29311, org.springframework.security.web.header.HeaderWriterFilter@62615be, org.springframework.web.filter.CorsFilter@6c7f804c, org.springframework.security.web.authentication.logout.LogoutFilter@565efd7d, com.example.demo.security.JWTAuthenticationFilter@3e89f5bc, com.example.demo.security.JWTAuthenticationVerificationFilter@259aec72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@782dc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67a3394c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36d39655, org.springframework.security.web.session.SessionManagementFilter@5dc7391e, org.springframework.security.web.access.ExceptionTranslationFilter@5b0835cb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@183a508b]
+2020-10-22 13:07:56.780  INFO 6524 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 13:07:57.040  INFO 6524 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-22 13:07:57.053  INFO 6524 --- [           main] com.example.demo.SareetaApplication      : Started SareetaApplication in 5.062 seconds (JVM running for 5.56)
+2020-10-22 13:08:08.353  INFO 6524 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 13:08:08.353  INFO 6524 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-22 13:08:08.361  INFO 6524 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-10-22 13:08:08.453  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : Creating user lynn
+2020-10-22 13:08:08.617  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : User lynn is created successfully.
+2020-10-22 13:17:56.567  INFO 6524 --- [nio-8080-exec-8] c.e.demo.controllers.UserController      : Creating user test
+2020-10-22 13:17:56.569 ERROR 6524 --- [nio-8080-exec-8] c.e.demo.controllers.UserController      : User password error: creating user test failed.
+2020-10-22 13:18:06.291  INFO 6524 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : Creating user test
+2020-10-22 13:18:06.294 ERROR 6524 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : User password error: creating user test failed.
+2020-10-22 14:01:21.253  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.CartController      : User lynn is trying to add items to cart...
+2020-10-22 14:01:21.275  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.CartController      : Items successfully added to cart for user lynn
+2020-10-22 14:01:36.333  INFO 6524 --- [nio-8080-exec-3] c.e.demo.controllers.CartController      : User lynn is trying to add items to cart...
+2020-10-22 14:01:36.339  INFO 6524 --- [nio-8080-exec-3] c.e.demo.controllers.CartController      : Items successfully added to cart for user lynn
+2020-10-22 14:04:51.146  INFO 6524 --- [nio-8080-exec-6] c.e.demo.controllers.CartController      : User test is trying to add items to cart...
+2020-10-22 14:04:51.148 ERROR 6524 --- [nio-8080-exec-6] c.e.demo.controllers.CartController      : Add-to-cart error: user test not found.
+2020-10-22 14:06:21.997  INFO 6524 --- [nio-8080-exec-9] c.e.demo.controllers.CartController      : User lynn is trying to add items to cart...
+2020-10-22 14:06:22.000 ERROR 6524 --- [nio-8080-exec-9] c.e.demo.controllers.CartController      : Add-to-cart error: item 3 not found.
+2020-10-22 14:08:07.928  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.CartController      : User lynn is trying to remove items from cart...
+2020-10-22 14:08:07.936  INFO 6524 --- [nio-8080-exec-2] c.e.demo.controllers.CartController      : Items successfully removed from cart for user lynn
+2020-10-22 14:08:20.802  INFO 6524 --- [nio-8080-exec-3] c.e.demo.controllers.CartController      : User lynn is trying to remove items from cart...
+2020-10-22 14:08:20.809  INFO 6524 --- [nio-8080-exec-3] c.e.demo.controllers.CartController      : Items successfully removed from cart for user lynn
+2020-10-22 14:11:36.031  INFO 6524 --- [nio-8080-exec-6] c.e.demo.controllers.CartController      : User test is trying to remove items from cart...
+2020-10-22 14:11:36.032 ERROR 6524 --- [nio-8080-exec-6] c.e.demo.controllers.CartController      : Remove-from-cart error: user test not found.
+2020-10-22 14:11:38.080  INFO 6524 --- [nio-8080-exec-7] c.e.demo.controllers.CartController      : User test is trying to remove items from cart...
+2020-10-22 14:11:38.081 ERROR 6524 --- [nio-8080-exec-7] c.e.demo.controllers.CartController      : Remove-from-cart error: user test not found.
+2020-10-22 14:16:39.743  INFO 6524 --- [io-8080-exec-10] c.e.demo.controllers.CartController      : User lynn is trying to remove items from cart...
+2020-10-22 14:16:39.747 ERROR 6524 --- [io-8080-exec-10] c.e.demo.controllers.CartController      : Remove-from-cart error: item 3 not found.
+2020-10-22 14:16:45.986  INFO 6524 --- [nio-8080-exec-1] c.e.demo.controllers.CartController      : User lynn is trying to remove items from cart...
+2020-10-22 14:16:45.989 ERROR 6524 --- [nio-8080-exec-1] c.e.demo.controllers.CartController      : Remove-from-cart error: item 3 not found.
+2020-10-22 14:20:08.950  INFO 6524 --- [nio-8080-exec-4] c.e.demo.controllers.OrderController     : Submitting order for user test...
+2020-10-22 14:20:08.951 ERROR 6524 --- [nio-8080-exec-4] c.e.demo.controllers.OrderController     : Order submitting error: user test not found.
+2020-10-22 14:20:17.298  INFO 6524 --- [nio-8080-exec-5] c.e.demo.controllers.OrderController     : Submitting order for user test...
+2020-10-22 14:20:17.299 ERROR 6524 --- [nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order submitting error: user test not found.
+2020-10-22 14:20:54.303  INFO 6524 --- [nio-8080-exec-6] c.e.demo.controllers.OrderController     : Submitting order for user lynn...
+2020-10-22 14:20:54.313  INFO 6524 --- [nio-8080-exec-6] c.e.demo.controllers.OrderController     : Order submitted successfully for user lynn
+2020-10-22 14:20:58.713  INFO 6524 --- [nio-8080-exec-7] c.e.demo.controllers.OrderController     : Submitting order for user lynn...
+2020-10-22 14:20:58.717  INFO 6524 --- [nio-8080-exec-7] c.e.demo.controllers.OrderController     : Order submitted successfully for user lynn
+2020-10-22 14:22:27.106 ERROR 6524 --- [nio-8080-exec-1] c.e.demo.controllers.OrderController     : User test not found. Getting orders failed.
+2020-10-22 14:22:29.308 ERROR 6524 --- [nio-8080-exec-2] c.e.demo.controllers.OrderController     : User test not found. Getting orders failed.
+2020-10-22 14:24:34.700 ERROR 6524 --- [nio-8080-exec-5] c.e.demo.controllers.OrderController     : User test not found. Getting orders failed.
+2020-10-22 16:08:23.953 ERROR 6524 --- [nio-8080-exec-9] c.e.demo.controllers.OrderController     : User test not found. Getting orders failed.
+2020-10-22 16:11:55.367 ERROR 6524 --- [nio-8080-exec-2] c.e.demo.controllers.OrderController     : User test not found. Getting orders failed.
